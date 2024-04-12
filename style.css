@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(230, 144, 161);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+.cardheading{
+    display: flex;
+    margin-bottom: 1rem;
+}
+i{
+    margin-top: 0.35rem;
+    margin-left: 1rem;
+}
+.btn{
+    background-color: rgb(249, 195, 59);
+    color: beige;
+    border-radius: 1rem;
+}
+.form-control{
+    border-radius: 1rem;
+}
+li{
+    position: relative;
+}
+
+ul li span{
+    position: absolute;
+    right: 0px;
+    height: 5px;
+}
